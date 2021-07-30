@@ -1,4 +1,65 @@
 @import url(reset.css);
-body {
-	background: red;
+
+.header {
+	width: 1440px;
+	height: 200px;
+	background: #E5E000;
+}
+
+.header-container {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: helvetica;
+}
+
+.image {
+width: 1440px;
+height: 1080px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-image: url(../img/img.png);}
+
+.menu  {
+	background: #E5E000;
+	width: 1440px;
+	height: 29px;
+	font-size: 25px;
+	font-family: helvetica;
+}
+
+.landing {
+	color: #000000;
+	font-size: 50px;
+	font-family: helvetica;
+}
+
+#main-title {
+	color: #000000;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: helvetica;
+
+}
+
+.footer-container{
+	background: #E5E000;
+	width: 1440px;
+height: 200px;
+}
+
+.logo{
+	height: 46px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left;
+	background-image: url(../img/logo.png);
+}
+.footer-text {
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: right;
+	font-family: helvetica;
+
 }
