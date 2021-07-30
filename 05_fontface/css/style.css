@@ -1,0 +1,21 @@
+@font-face {
+src: url(../font/Oswald-VariableFont_wght.ttf);
+font-family: 'Oswald-VariableFont_wght';
+font-weight: normal;}
+
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: bold;
+	font-family: 'Oswald-VariableFont_wght';
+}
+
+.paragraph p {
+	font-style: normal;
+font-family: 'Oswald-VariableFont_wght';	
+}
+
+.paragraph-two p {
+	font-style: normal;
+font-family: 'Oswald-VariableFont_wght'}

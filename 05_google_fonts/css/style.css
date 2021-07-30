@@ -1,0 +1,14 @@
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: bold;
+font-family: 'Open Sans Condensed', sans-serif;}
+
+.paragraph p {
+font-family: 'Open Sans Condensed', sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.paragraph-two p {
+font-family: 'Oswald', sans-serif;
+}
