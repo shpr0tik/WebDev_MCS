@@ -1,12 +1,9 @@
 @import url(reset.css);
 
-.header {
+.header-container {
 	width: 1440px;
 	height: 200px;
 	background: #E5E000;
-}
-
-.header-container {
 	color: #FFFFFF;
 	line-height: 200px;
 	font-size: 50px;
@@ -43,19 +40,20 @@
 
 }
 
-.footer-container{
+.footer-container {
 	background: #E5E000;
 	width: 1440px;
 height: 200px;
 }
 
-.logo{
+.logo {
 	height: 46px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
 	background-image: url(../img/logo.png);
 }
+
 .footer-text {
 	color: #FFFFFF;
 	font-size: 50px;
