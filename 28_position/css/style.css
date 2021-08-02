@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+section {
+	height: 600px;
+	border: 1px solid black;
+}
+
+.inner {
+	width: 50px;
+	height: 50px;
+}
+
+.static .inner {
+	background-color: red;
+	position: static;
+
+	/*можно двигать только через марджин*/
+
+}
+
+.relative .inner {
+	background-color: orange;
+	position: relative;
+	top: 50px;
+	left: 30px;
+	bottom: 10px;
+}
+
+/* не вырывает элемент из потока, сдвигается относительно самого себя*/
+
+.absolute {
+	position: relative;
+}
+
+.absolute .inner {
+	background-color: violet;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 20px;
+	right: 0;
+
+	/*в рамках своей секции, вырывает элемент из потока
+	если все 4 стороны, то предпочтет топ и лефт*/
+}
+
+.fixed .inner {
+	background-color: green;
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+
+   /*относительно всего окна браузера,
+   не только в своей секции*/
+}
