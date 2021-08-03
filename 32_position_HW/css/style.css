@@ -1,0 +1,114 @@
+@import url(reset.css);
+
+
+header {
+	width: 1440px;
+	height: 40px;
+	background-color: red;
+ 
+}
+
+.header-name {
+	color: white;
+	line-height: 35px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-family: Helvetica;
+
+}
+
+.page {
+	background-color: white;
+}
+
+.outline-first {
+	width: 400px;
+	height: 700px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 58px;
+	margin-bottom: 50px;
+}
+
+.outline-second {
+	width: 400px;
+	height: 700px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 58px;
+	margin-bottom: 50px;
+}
+
+.outline-third {
+	width: 400px;
+	height: 700px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 58px;
+	margin-bottom: 50px;
+}
+
+.p-name { 
+	color: black;
+	text-align: left;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-style: bold;
+	font-size: 20px; 
+	display: block;
+	padding-top: 33px;
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+.text2 {
+	display: block;
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+.text3 {
+	display: block;
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+.text4 {
+	display: block;
+	padding-left: 33px;
+	padding-bottom: 20px;
+}
+
+
+ul  {
+    color: black;
+	text-align: left;
+	font-family: Times New Romana;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px; 
+	display: block;
+	padding-left: 33px;
+
+}
+
+
+
+footer {
+	width: 1440px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	font-family: Helvetica;
+    line-height: 40px;
+    padding-left: 10px;
+}
