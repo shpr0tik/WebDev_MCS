@@ -11,7 +11,9 @@
 }
 
 .header {
-	margin: auto;
+	background-color: white;
+	background-repeat: no-repeat;
+    background-position: center;
 	background-attachment: fixed;
 
 }
@@ -21,21 +23,20 @@
 	color: #E50043;
 	font-family: Arial;
 	display: inline-block;
-	text-align: 140px;
-	padding-left: 30px;
+	padding: 50px 780px 50px 50px;
 }
 
 .menu {
 	font-size:50px;
 	font-family: Arial;
 	display: inline-block;
+
 }
 
 .menu li { 
-	margin-left: 800px;
 	display: inline;
-	text-align: center;
-
+	text-align: right;
+	margin-right: 50px;
 }
 
 a {
@@ -45,12 +46,12 @@ a {
 }
 
 .image-logo {
+	width: 1440px;
+	height: 950px;
+	background-image: url(../img/evian_origins_logo.png);
 	display: flex;
-	flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center;
-    align-content: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .image-text {
@@ -58,7 +59,87 @@ a {
 	font-style: normal;
     font-weight: normal;
     font-size: 100px;
-	color: #E50043;
+	color: #E50043;}
 
+.top-container {
+	width: 1040px;
+	height: 280px;
+	background-color: white;
+	border: 3px solid #F8BFC7;
+	border-radius: 25px;
+	box-sizing: border-box;
+	margin-top: 150px;
+	margin-left: 201px;
+	margin-right: 199px;
+	margin-bottom: 150px;
 
 }
+
+h2 {
+	color: #000000;
+	font-family: Arial;
+	font-size: 25px;
+	padding-top: 24px;
+	padding-left: 24px;
+}
+
+.about-text {
+	color: #000000;
+	font-family: Arial;
+	font-size: 25px;
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;}
+
+.bottom-container {
+	width: 1040px;
+	height: 280px;
+	background-color: white;
+	border: 3px solid #F8BFC7;
+	border-radius: 25px;
+	box-sizing: border-box;
+	margin-top: 150px;
+	margin-left: 201px;
+	margin-right: 199px;
+	margin-bottom: 150px;
+}
+
+.image-bottom {
+	background-image: url(../img/evian_origins_logo.png);
+	display: inline-block;
+	padding-top: 30px;
+	padding-right: 80px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+}
+
+.bottom-container ul {
+	display: inline-block;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-right: 80;
+}
+
+.bottom-container li { 
+	display: inline;
+	color: #000000;
+	font-family: Arial;
+	font-size: 25px;
+}
+
+
+footer {
+	background-color: #F8BFC7;}
+
+	.footer-name {
+	font-size: 50px;
+	color: white;
+	font-family: Arial;
+	display: inline;
+	text-align: right;
+	line-height: 140px;
+	padding-left: 50px;
+
+	}
