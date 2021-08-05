@@ -1,42 +1,36 @@
 @import url(reset.css);
 
-.page {
-	background-color: white;
+* {
+	box-sizing: border-box;
 }
 
 .header, footer {
-	width: 1440px;
 	height: 140px;
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
 
 .header {
 	background-color: white;
-	background-repeat: no-repeat;
-    background-position: center;
-	background-attachment: fixed;
-
+	display: flex;
+	position: fixed;
+    justify-content: space-between;
+    width: 100%;
+	padding: 50px;
+	top: 0;
 }
 
 .logo {
 	font-size:50px;
 	color: #E50043;
 	font-family: Arial;
-	display: inline-block;
-	padding: 50px 780px 50px 50px;
 }
 
 .menu {
 	font-size:50px;
 	font-family: Arial;
-	display: inline-block;
-
 }
 
 .menu li { 
-	display: inline;
-	text-align: right;
-	margin-right: 50px;
 }
 
 a {
@@ -46,7 +40,7 @@ a {
 }
 
 .image-logo {
-	width: 1440px;
+	margin-top: 140px;
 	height: 950px;
 	background-image: url(../img/evian_origins_logo.png);
 	display: flex;
@@ -67,57 +61,61 @@ a {
 	background-color: white;
 	border: 3px solid #F8BFC7;
 	border-radius: 25px;
-	box-sizing: border-box;
+	box-sizing: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-top: 150px;
 	margin-left: 201px;
 	margin-right: 199px;
 	margin-bottom: 150px;
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;
 
 }
 
-h2 {
+.top-container h2 {
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
-	padding-top: 24px;
-	padding-left: 24px;
 }
 
 .about-text {
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
-	padding-top: 24px;
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 24px;}
+    margin-top: 20px;}
 
 
 .center-container {
-	box-sizing: border-box;
-	display: block;
-	margin-top: 150px;
-	margin-right: 200px;
-	margin-bottom: 156px;
+	width: 1143px;
+	height: 969px;
+	box-sizing: inherit;
+	display: flex;
+	justify-content: center;
 	margin-left: 200px;
+	margin-right: 200px;
+
 }
 
 .flex-item-one {
 	background-image: url(../wang.png);
-	display: inline-block;
+
+	
 	}
 
 .flex-item-two {
-	background-image: url(../blue.png)
-	display: inline-block;
+	background-image: url(../blue.png);
+	
 }
 
 .flex-item-three {
-	background-image: url(../chiara.png)
-	display: inline-block;
+    background-image: url(../chiara.png);
+	
 
 }
-
 
 .bottom-container {
 	width: 1040px;
@@ -125,32 +123,25 @@ h2 {
 	background-color: white;
 	border: 3px solid #F8BFC7;
 	border-radius: 25px;
-	box-sizing: border-box;
+	box-sizing: inherit;
+	justify-content: center;
+	align-items: center;
 	margin-top: 150px;
 	margin-left: 201px;
 	margin-right: 199px;
 	margin-bottom: 150px;
-}
-
-.image-bottom {
-	background-image: url(../img/evian_origins_logo.png);
-	display: inline-block;
 	padding-top: 30px;
-	padding-right: 80px;
+	padding-right: 30px;
 	padding-bottom: 30px;
 	padding-left: 80px;
 }
 
-.bottom-container ul {
-	display: inline-block;
-	padding-top: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-right: 80;
+.image-bottom {
+	background-image: url(../img/evian_origins_logo.png);
+	
 }
 
 .bottom-container li { 
-	display: inline;
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
@@ -164,8 +155,7 @@ footer {
 	font-size: 50px;
 	color: white;
 	font-family: Arial;
-	display: inline;
-	text-align: right;
+	text-align: left;
 	line-height: 140px;
 	padding-left: 50px;
 
