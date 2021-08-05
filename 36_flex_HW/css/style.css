@@ -25,13 +25,13 @@
 	font-family: Arial;
 }
 
+
 .menu {
 	font-size:50px;
 	font-family: Arial;
 }
 
-.menu li { 
-}
+
 
 a {
 	color: #E50043;
@@ -90,31 +90,22 @@ a {
 
 
 .center-container {
-	width: 1143px;
-	height: 969px;
 	box-sizing: inherit;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin-left: 200px;
-	margin-right: 200px;
+	margin-right: 200px;}
 
+center-container .flex-item {
+	width: 280px;
+	height: 863px;
 }
-
-.flex-item-one {
-	background-image: url(../wang.png);
-
-	
-	}
-
-.flex-item-two {
-	background-image: url(../blue.png);
-	
-}
-
-.flex-item-three {
-    background-image: url(../chiara.png);
-	
-
+ 
+.text {
+	text-align: center;
+	margin-top: 48px;
+	font-family: Arial;
+	font-size: 25px;
 }
 
 .bottom-container {
@@ -125,8 +116,7 @@ a {
 	border-radius: 25px;
 	box-sizing: inherit;
     display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-between;
 	margin-top: 150px;
 	margin-left: 201px;
 	margin-right: 199px;
@@ -134,22 +124,21 @@ a {
 	padding-top: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
-	padding-left: 80px;
+	padding-left: 80px;}
+
+.bottom-container img {
+	width: 101px;
+	height: 220px;
+	margin-right:80px;
 }
 
-.image-bottom {
-	height: 220px;
-	width: 101px;
-	background-image: url(../img/evian_origins_logo.png);
-	
-}
 
 .bottom-container li { 
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
+	padding-bottom: 10px;
 }
-
 
 footer {
 	background-color: #F8BFC7;}
