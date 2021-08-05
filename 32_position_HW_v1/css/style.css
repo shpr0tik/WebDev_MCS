@@ -23,7 +23,6 @@ header {
 
 .outline-first {
 	width: 400px;
-	height: 700px;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -34,7 +33,6 @@ header {
 
 .outline-second {
 	width: 400px;
-	height: 700px;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -46,7 +44,6 @@ header {
 
 .outline-third {
 	width: 400px;
-	height: 700px;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	box-sizing: border-box;
