@@ -92,6 +92,33 @@ h2 {
 	padding-right: 24px;
 	padding-bottom: 24px;}
 
+
+.center-container {
+	box-sizing: border-box;
+	display: block;
+	margin-top: 150px;
+	margin-right: 200px;
+	margin-bottom: 156px;
+	margin-left: 200px;
+}
+
+.flex-item-one {
+	background-image: url(../wang.png);
+	display: inline-block;
+	}
+
+.flex-item-two {
+	background-image: url(../blue.png)
+	display: inline-block;
+}
+
+.flex-item-three {
+	background-image: url(../chiara.png)
+	display: inline-block;
+
+}
+
+
 .bottom-container {
 	width: 1040px;
 	height: 280px;
