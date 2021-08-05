@@ -2,7 +2,6 @@
 
 
 header {
-	width: 1440px;
 	height: 40px;
 	background-color: red;
  
@@ -87,7 +86,6 @@ ul  {
 
 
 footer {
-	width: 1440px;
 	height: 40px;
 	background-color: red;
 	color: white;
