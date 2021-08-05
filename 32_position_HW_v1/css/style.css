@@ -18,6 +18,7 @@ header {
 
 .page {
 	background-color: white;
+	text-align: center;
 }
 
 .outline-first {
@@ -28,7 +29,6 @@ header {
 	box-sizing: border-box;
 	display: inline-block;
 	margin-top: 50px;
-	margin-left: 58px;
 	margin-bottom: 50px;
 }
 
@@ -64,6 +64,7 @@ header {
 	font-style: bold;
 	font-size: 20px; 
 	display: block;
+	text-align: left;
 	padding-top: 33px;
 	padding-left: 33px;
 	padding-bottom: 30px;
