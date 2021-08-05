@@ -124,7 +124,8 @@ a {
 	border: 3px solid #F8BFC7;
 	border-radius: 25px;
 	box-sizing: inherit;
-	justify-content: center;
+    display: flex;
+	justify-content: space-around;
 	align-items: center;
 	margin-top: 150px;
 	margin-left: 201px;
@@ -137,6 +138,8 @@ a {
 }
 
 .image-bottom {
+	height: 220px;
+	width: 101px;
 	background-image: url(../img/evian_origins_logo.png);
 	
 }
