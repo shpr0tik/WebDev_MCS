@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+	text-align: center;
 }
 
 .header, footer {
@@ -82,6 +83,7 @@ a {
 	font-family: Arial;
 	font-size: 25px;
 	letter-spacing: 2px;
+	text-align: left;
 }
 
 .about-text {
@@ -89,7 +91,8 @@ a {
 	font-family: Arial;
 	font-size: 25px;
     padding-top: 20px;
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+    text-align: left;}
 
 
 .center-container {
@@ -97,9 +100,11 @@ a {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 200px;
-	margin-right: 200px;}
+	margin-right: 200px;
+	margin-bottom: 150px;
+ }
 
-center-container .flex-item {
+ .flex-item {
 	width: 280px;
 	height: 863px;
 }
@@ -142,7 +147,8 @@ center-container .flex-item {
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
-	letter-spacing: 2px;}
+	letter-spacing: 2px;
+    text-align: left;}
 
 footer {
 	background-color: #F8BFC7;}
