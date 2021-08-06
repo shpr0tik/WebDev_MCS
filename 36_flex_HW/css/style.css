@@ -82,13 +82,15 @@ a {
 	font-size: 25px;
 	letter-spacing: 2px;
 	text-align: left;
+	padding-top: 24px;
 }
 
 .about-text {
 	color: #000000;
 	font-family: Arial;
 	font-size: 25px;
-    padding-top: 20px;
+	margin-top: 10px;
+    padding-bottom: 24px;
     letter-spacing: 2px;
     text-align: left;
     line-height: 29px;
@@ -143,6 +145,11 @@ a {
 	margin-right:80px;
 }
 
+.bottom-container ul {
+   box-sizing: inherit;
+    padding-top: 40px;
+	padding-right: 30px;
+	padding-bottom: 30px;}
 
 .bottom-container li { 
 	color: #000000;
@@ -150,7 +157,8 @@ a {
 	font-size: 25px;
 	letter-spacing: 2px;
     text-align: left;
-    line-height: 24px;}
+    line-height: 24px;
+    margin-bottom: 30px;}
 
 footer {
 	background-color: #F8BFC7;}
