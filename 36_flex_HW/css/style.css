@@ -5,6 +5,14 @@
 	text-align: center;
 }
 
+body {
+
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: #000000;
+	font-family: Arial;
+}
+
 .header {
 	background-color: white;
 	display: flex;
@@ -18,13 +26,11 @@
 .logo {
 	font-size:50px;
 	color: #E50043;
-	font-family: Arial;
 }
 
 
 .menu {
 	font-size:50px;
-	font-family: Arial;
 }
 
 a {
@@ -50,11 +56,10 @@ a:active {
 }
 
 .image-text {
-	font-family: Arial;
-	font-style: normal;
+	 font-style: normal;
     font-weight: normal;
     font-size: 100px;
-	color: #E50043;}
+	 color: #E50043;}
 
 .top-container {
 	width: 1040px;
@@ -70,22 +75,14 @@ a:active {
 }
 
 .top-container h2 {
-	color: #000000;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 1px;
-	text-align: left;
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 .about-text {
-	color: #000000;
-	font-family: Arial;
-	font-size: 25px;
-   letter-spacing: 1px;
-   text-align: left;
    margin-top: 30px;
    line-height: 29px;
+   text-align: left;
  }
 
 
@@ -106,8 +103,6 @@ a:active {
 .text, .text2 {
 	text-align: center;
 	margin-top: 48px;
-	font-family: Arial;
-	font-size: 25px;
 }
 
 .bottom-container {
@@ -134,13 +129,9 @@ a:active {
 	padding-bottom: 30px;}
 
 .bottom-container li { 
-	color: #000000;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 1px;
-   text-align: left;
-   line-height: 24px;
-   margin-bottom: 30px;}
+	line-height: 24px;
+   margin-bottom: 30px;
+   text-align: left;}
 
 footer {
 	background-color: #F8BFC7;}
@@ -148,9 +139,8 @@ footer {
 	.footer-name {
 	font-size: 50px;
 	color: white;
-	font-family: Arial;
-	text-align: left;
 	line-height: 140px;
 	padding-left: 50px;
+	text-align: left;
 
 	}
