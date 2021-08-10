@@ -62,7 +62,8 @@ a:active {
 	border: 3px solid #F8BFC7;
 	border-radius: 25px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+   flex-wrap: wrap;
 	margin: 150px auto;
 	padding: 24px;
 
@@ -74,7 +75,7 @@ a:active {
 	font-size: 25px;
 	letter-spacing: 1px;
 	text-align: left;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .about-text {
