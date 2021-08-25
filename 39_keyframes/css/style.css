@@ -1,0 +1,34 @@
+@import url(reset.css);
+
+@keyframes moving {
+	from {
+		top: 0;
+		left: 0;
+	}
+	to {
+		top: 300px;
+		left: 300px;
+		background-color: black;
+	}
+}
+
+/*можно от 0% до 100% вместо from-to писать*/
+
+body {
+background-color: darkgrey;
+}
+
+.ball {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	border-radius: 50%;
+	animation-name:moving ;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: paused; /*управлять через JS*/
+}
