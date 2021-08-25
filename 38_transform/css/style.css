@@ -25,6 +25,6 @@ transform: translate(20px, -30px );
 transform: skew(10deg);
 }
 
-.scale {
+.scale:hover {
 transform: scale(0.8, 1);
 }
