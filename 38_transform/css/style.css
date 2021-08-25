@@ -26,5 +26,5 @@ transform: skew(10deg);
 }
 
 .scale {
-	   -webkit-transform: scale(0.8, 1);
+transform: scale(0.8, 1);
 }
