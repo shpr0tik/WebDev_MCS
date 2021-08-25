@@ -1,0 +1,30 @@
+
+div {
+width: 200px;
+height: 200px;
+background-color: darkgrey;
+margin: 0 auto;
+margin-bottom: 50px;
+font-size: 20px;
+line-height: 200px;
+text-align: center;
+transition: 2s;
+}
+
+.translate:hover {
+transform: translate(20px, -30px );
+
+}
+
+.rotate:hover {
+	transform: rotate(45deg);
+
+}
+
+.skew:hover{
+transform: skew(10deg);
+}
+
+.scale {
+	   -webkit-transform: scale(0.8, 1);
+}
