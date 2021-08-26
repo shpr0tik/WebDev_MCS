@@ -29,6 +29,7 @@ html {
   background-color: #E5E5E5;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .article {
