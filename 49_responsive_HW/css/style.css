@@ -1,23 +1,71 @@
 @import url(reset.css);
 
-.columns {
-width: 80vw;
-min-height: 500px;
-margin: auto;
-display: flex;
-justify-content: space-between;
-align-content: stretch;
-background-color: gray;
+html {
+  box-sizing: border-box;
 }
 
-.column {
-  width: calc((100% - 40px)/3);
-  background-color: lightblue;
+* {
+  font-family: 'Times New Roman', monospace;
+  font-weight: normal;
+  box-sizing: inherit;
 }
 
-.img {
-  background-image: url(../img/logo.png);
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 100%; /*вычислит относительно ширины column*/
+.main-header,
+.main-footer {
+  min-width: 100%;
+  background-color: #FFE138;
 }
+
+.title,
+.footer-text {
+  color: #000000;
+  text-align: center;
+  padding: 51px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.page{
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  margin: 70px auto;
+  max-width: calc((100% - 150px)/3);
+  border: 1px solid #000000;
+}
+
+.article.first {
+ min-height: 985px;
+}
+
+.article.second {
+  min-height: 1010px;
+}
+
+.article.third {
+  min-height: 1260px;
+}
+
+img {
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.article-text{
+  box-sizing: border-box;
+  padding: 0 33px 30px 33px;
+}
+
+.article-header {
+  margin-bottom: 30px;
+}
+
+.article-header,
+.text {
+  line-height: 25px;
+}
+
