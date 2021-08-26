@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.header,
+.footer {
+  width: 100%;
+  box-sizing: inherit;
+  background-color: #0000FF;
+  display: flex;
+  justify-content: flex-start;
+  color: #FFFFFF;
+  font-size: 25px;
+  padding: 35px;
+}
+
+.header{
+  margin-bottom: 102px;
+}
+
+
+.footer{
+  margin-top: 82px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.article {
+  width: 600px;
+  height: 300px;
+  box-sizing: inherit;
+  border: 5px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #FFFFFF;
+  color: #000000;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
