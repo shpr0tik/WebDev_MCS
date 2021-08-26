@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+html {
+  font-size: 30px;
+}
+
+
+.outer  {
+  font-size: 10px;
+  color: black;
+
+}
+
+.outer h1 {
+ font-size: 1.5em;
+}
+
+/*.outer2 {
+  font-size: 30px; /*при рем уже это значение не активируется
+}*/
+
+.outer2 p{
+  font-size: 2rem;
+}

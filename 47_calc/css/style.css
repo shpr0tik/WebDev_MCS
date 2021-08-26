@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+.columns {
+  min-height: 500px;
+  border: 1 solid red;
+  display: flex;
+}
+
+.column.two {
+  width: 240px;
+  height: 720px;
+  background-color: orange;
+}
+
+.column.one {
+height: 1020px;
+width: calc(100% - 240px);
+background-color: navy;
+}
+
+.columns2 {
+  min-height: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column2{
+  width: calc((100% - 80px%)/3); /*разное чтобы расстояние было одно ,
+  растояние=40px, а их два, -> 80px, и три колонки
+  */
+  height: 100px;
+  background-color: red;
+}
+
+/*100% это от родителя*/

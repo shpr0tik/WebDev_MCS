@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+
+
+.outer {
+  height: 300px;
+  width: 80%; /*проценты берутся от родителя*/
+  background-color: black;
+  margin: auto;
+}
+
+.inner {
+  height: 100px;
+  width: 70%;
+  background-color: blue;
+}
+
+.round {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 50%;
+
+}
+
+.popup {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  border:  2px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* сдвинется на половину от собственной ширины и высоты*/
+}

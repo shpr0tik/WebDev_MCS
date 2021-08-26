@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+.min {
+  width: 200px;
+  min-height: 300px; /* минимальная высота, расширяется если контента больше, 
+  но меньше 300 не будет  */
+  border: 1px solid red;
+}
+
+.max {
+height: 100px;
+max-width: 1000px; /*максимальная ширина, может уменьшаться до какого-то размера,
+но больше не будет*/
+background-color: blue;
+margin: auto;
+
+}

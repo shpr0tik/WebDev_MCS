@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+.columns {
+width: 80vw;
+min-height: 500px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-content: stretch;
+background-color: gray;
+}
+
+.column {
+  width: calc((100% - 40px)/3);
+  background-color: lightblue;
+}
+
+.img {
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100%; /*вычислит относительно ширины column*/
+}
