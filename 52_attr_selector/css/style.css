@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+img[src="https://cdn1.savepice.ru/uploads/2021/8/28/800f44c67887ef46519f76369269c7a5-full.jpg"]{
+  width: 200px;
+}
+
+
+img[alt="two"]{
+  width: 100px;
+}

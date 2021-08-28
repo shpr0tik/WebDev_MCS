@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<title>test</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="page">
+		<form>
+			<div class="column one">
+			<fieldset class="personal">
+				<label for="fio">ФИО</label>
+				<input type="text" name="fio" placeholder="Иванов">
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="example@mail.com"></input>
+				<label for="password">Password</label>
+				<input type="password" name="password" placeholder="***********"></input>
+				<label for="birth">DOB</label>
+				<input type="date" name="birth" placeholder="01.01.2000"></input>
+			</fieldset>
+			</div>
+			<div class="column two">
+			<fieldset class="type">
+				<label for="client">Новый?</label>
+				<input type="radio" name="client" value="yes"> <span>да</span>
+				<input type="radio" name="client" value="no"><span>нет</span>
+				<label for="purpose">Сколько?</label>
+				<select name="purpose">
+					<option value="number">1</option>
+					<option value="number">2</option>
+				</select>
+			</fieldset>
+			<fieldset class="message">
+			<label for="message">Message</label>
+			<textarea name="message"></textarea>
+			<input type="checkbox" checked="true"> <span>done</span>
+			</fieldset>
+			<input type="submit"> 
+			</div>
+		</form>
+	</div>
+</body>
+</html>
