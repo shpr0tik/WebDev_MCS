@@ -58,6 +58,7 @@
 .page {
   padding: 0 22px;
 }
+
 .article {
   width: 300px;
   height: 165px;    
@@ -76,7 +77,6 @@
 
 
 @media all and (min-width: 960px) {
-}
  .article  {
   width: 600px;
   height: 300px;
