@@ -20,12 +20,8 @@
   padding: 35px;
 }
 
-.header{
-  margin-bottom: 102px;
-}
-
 .page {
-  margin: 0 20px;
+  margin: 102px 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -46,7 +42,6 @@
 }
 
 .footer{
-  margin-top: 102px;
   display: flex;
   justify-content: space-between;
 }
