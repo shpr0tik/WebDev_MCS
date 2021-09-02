@@ -10,65 +10,106 @@
 	<body>
 		<header class="header">
 			<nav class="header-navigation">
-				<img class="logo" src="#" alt="Логотип">
+				<a href="#">
+					<img class="logo" src="#" alt="Логотип">
+				</a>
 				<ul class="header-navigation-list">
-					<li class="navigation-list-item">Каталог</li>
-					<li class="navigation-list-item">Доставка и Оплата</li>
-					<li class="navigation-list-item">Отзывы</li>
-					<li class="navigation-list-item">Спецпредложения</li>
-					<li class="navigation-list-item">Контакты</li>
-					<li class="navigation-list-item">Корзина</li>
+					<li class="navigation-list-item">
+						<a href="#">Каталог</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Доставка и Оплата</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Отзывы</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Спецпредложения</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Контакты</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Корзина</a>
+					</li>
 				</ul>
 			</nav>
-			<section class="header-about">
-				<h1>Авторские букеты <span class="title-spb">в Петербурге</span></h1>
-				<p class="header-about-text">Оригинальные свежие букеты с доставкой по всему городу</p>
-				<button class="header-buttob">Смотреть каталог </button>
-				<img class="header-bouquet-photo1" src="#" alt="Букет">
-				<img class="header-bouquet-photo2" src="#" alt="Букет">
-			</section>
 		</header>
 		<main class="main-page">
+			<section class="section-about">
+				<h1>Авторские букеты <span class="title-spb">в Петербурге</span></h1>
+				<p class="section-about-text">Оригинальные свежие букеты с доставкой по всему городу</p>
+				<a href="#" class="button">Смотреть каталог</a>
+				<img class="about-bouquet-photo1" src="#" alt="Букет">
+				<img class="about-bouquet-photo2" src="#" alt="Букет">
+			</section>
 			<section class="advantages">
 				<h2 class="visually-hidden">Преимущества</h2>
 				<ul class="advantages-list">
 					<li class="advantages-list-item">
-						<p class="advantages-item-title">Быстрая доставка</p>
+						<h3 class="advantages-item-title">Быстрая доставка</h3>
 						<p class="advantages-item-text">Можем собрать букет и передать его в доставку всего за час.</p>
 					</li>
 					<li class="advantages-list-item">
-						<p class="advantages-item-title">Всегда свежие цветы</p>
+						<h3 class="advantages-item-title">Всегда свежие цветы</h3>
 						<p class="advantages-item-text">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
 					</li>
 					<li class="advantages-list-item">
-					<p class="advantages-item-title">Отправляем фото цветов</p>
+					<h3 class="advantages-item-title">Отправляем фото цветов</h3>
 					<p class="advantages-item-text">Перед доставкой сделаем фотографию букета и отправим вам.</p>
 				    </li>
 				</ul>
 			</section>
-			<section class="widget">
-				<h2 class="widget-title">Популярные букеты</h2>
-				<p class="widget-bouquet-title">Букет «Нежность»</p>
-				<p class="widget-bouquet-about">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
-				<p class="widget-bouquet-size">30 × 40 см</p>
-				<p class="widget-bouquet-price">3600 руб.</p>
-				<button class="widget-button">Заказать</button>
-				<img class="widget-bouquet-photo" src="" alt="Букет">
+			<section class="popular-catalog">
+				<h2 class="slider-title">Популярные букеты</h2>
+				<div class="popular-slider">
+				<div class="slider-item">
+				<div class="slider-item-desription">	
+				<h3 class="slider-bouquet-title">Букет «Нежность»</h3>
+				<p class="slider-bouquet-about">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+				<p class="slider-bouquet-size">30 × 40 см</p>
+				<p class="slider-bouquet-price">3600 руб.</p>
+				<a href="#" class="button">Заказать</a>
+			</div>	
+			<div class="slider-item-image">
+				<img class="slider-bouquet-photo" src="" alt="Букет">
+			</div>	
+			</div>
+			<div class="slider-controls">
+				<button type="button">
+					<p class="visually-hidden">Назад</p>
+				</button>
+				<button type="button">
+					<p class="visually-hidden">Вперёд</p>
+				</button>
+			</div>
+		   </div>
 			</section>
 			<section class="catalog">
 				<h2 class="visually-hidden">Каталог</h2>
-				<div class="catalog-section">
-					<p class="catalog-item-title"></p>
-					<img class="catalog-image" src="#" alt="Букет">
-				</div>
-				<div class="catalog-section">
-					<p class="catalog-item-title"></p>
-					<img class="catalog-image" src="#" alt="Букет">
-				</div>
-				<div class="catalog-section">
-					<p class="catalog-item-title"></p>
-					<img class="catalog-image" src="#" alt="Букет">
-				</div>
+				<ul class="catalog-list">
+					<li class="catalog-list-item">
+						<a href="#">
+							<h3 class="catalog-item-title">Cвадебные букеты</h3>
+							<p class="catalog-item-text">Букеты для невест</p>
+					        <img class="catalog-image" src="#" alt="Букет">
+						</a>
+					</li>
+					<li class="catalog-list-item">
+						<a href="#">
+							<h3 class="catalog-item-title">Букеты с пионами</h3>
+							<p class="catalog-item-text">Букеты с сезонными пионами</p>
+					        <img class="catalog-image" src="#" alt="Букет">
+						</a>
+					</li>
+					<li class="catalog-list-item">
+						<a href="#">
+							<h3 class="catalog-item-title">Выбрать букет</h3>
+							<p class="catalog-item-text">Букеты в ассортименте</p>
+					        <img class="catalog-image" src="#" alt="Букет">
+						</a>
+					</li>
+				</ul>
 			</section>
 			<article class="discount-section">
 				<h2 class="visually-hidden">Скидки</h2>
@@ -78,8 +119,8 @@
 				</div>
 				<img class="discount-image" src="#" alt="Букет">
 			</article>
-			<ul class="pefect-formula-list">
-				<h2 class="visually-hidden">Шаги к идеальному букету</h2>
+				<h2 class="visually-hidden"> 4 Шага к идеальному букету</h2>
+				<ul class="pefect-formula-list">
 				<li class="perfect-formula-item">
 					<h3 class="formula-title">Заказ</h3>
 					<p class="formula-text">Выберите понравившийся букет из каталога и оформите заказ</p>
@@ -103,9 +144,21 @@
 					<p class="news-section-title">Следите за нашими новостями</p>
 					<p class="news-section-text">Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
 					<ul class="news-section-socials">
-						<li class="news-section-social"></li>
-						<li class="news-section-social"></li>
-						<li class="news-section-social"></li>
+						<li class="news-section-social">
+							<a href="#">
+								<p class="visually-hidden">Инстаграм</p>
+							</a>
+						</li>
+						<li class="news-section-social">
+							<a href="#">
+								<p class="visually-hidden">Фейсбук</p>
+							</a>
+						</li>
+						<li class="news-section-social">
+							<a href="#">
+								<p class="visually-hidden">Твитер</p>
+							</a>
+						</li>
 					</ul>
 					</div>
 					<div class="news-images">
