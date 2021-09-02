@@ -158,11 +158,24 @@ h1 {
 }
 
 .advantages-list-item {
-    width: 285px;
+    width: 370px;
     text-align:start;
+    position: relative;
 
 }
 
+.advantages-list-item::before {
+    content: "";
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    background-origin: url("../img/advantages-steps-delivery.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+
+
+}
 
 .popular-catalog {
     width: 794px;
