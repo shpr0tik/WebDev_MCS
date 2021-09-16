@@ -14,7 +14,7 @@
 	<body>
 
 		<header class="header">
-			<div class="header-container">
+			<div class="content-container">
 				<a href="index.html" class="logo">
 					<img src="img/logo-pink.svg" alt="Логотип" class="header-logo-image" width="100" height="33">
 				</a>
@@ -34,35 +34,37 @@
 		<main class="main-page">
 
 			<section class="section-about">
-				<div class="section-about-container">
-					<h1>Авторские букеты <span class="title-spb">в Петербурге</span></h1>
+				<div class="content-container">
+					<div class="about-block"></div>
+					<h1 class="about-title">Авторские букеты <span class="title-spb">в Петербурге</span></h1>
 					<p class="section-about-text">Оригинальные свежие букеты с доставкой по всему городу</p>
 					<a href="#" class="button check-catalog">Смотреть каталог</a>
-				</div>
+				<div>
 				<img src="img/pink-tulips.jpg" alt="Букет бледно-розовых тюльпанов в крафтовой бумаге" class="about-bouquet-photo" width="368" height="404">
 				<img src="img/whie-pink-roses.jpg" alt="Букет белых и бледно-розовых роз в крафтовой бумаге" lass="about-bouquet-photo" width="387" height="420">
+			</div>
 			</section>
 
 			<section class="advantages">
 				<h2 class="visually-hidden">Преимущества</h2>
-				<div class="advantages-container">
+				<div class="content-container">
 					<ul class="advantages-list">
 						<li class="advantages-list-item">
-							<img src="#" alt="Иконка грузовика" class="advantages-image" width="82" height="52">
+							<img src="img/advantages-steps-delivery.svg" alt="Иконка грузовика" class="advantages-image" width="82" height="52">
 							<div class="advantages-block">
 								<h3 class="advantages-item-title">Быстрая доставка</h3>
 								<p class="advantages-item-text">Можем собрать букет и передать его в доставку всего за час.</p>
 							</div>
 						</li>
 						<li class="advantages-list-item">
-							<img src="#" alt="Иконка букета цветов" class="advantages-image" width="52" height="52">
+							<img src="img/advantages-bouquet.svg" alt="Иконка букета цветов" class="advantages-image" width="52" height="52">
 							<div class="advantages-block">
 								<h3 class="advantages-item-title">Всегда свежие цветы</h3>
 								<p class="advantages-item-text">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
 							</div>
 						</li>
 						<li class="advantages-list-item">
-							<img src="#" alt="Иконка фотоаппарата" class="advantages-image" width="59" height="52">
+							<img src="img/advantages-photo.svg" alt="Иконка фотоаппарата" class="advantages-image" width="59" height="52">
 							<div class="advantages-block">
 								<h3 class="advantages-item-title">Отправляем фото цветов</h3>
 								<p class="advantages-item-text">Перед доставкой сделаем фотографию букета и отправим вам.</p>
@@ -72,10 +74,10 @@
 				</div>
 			</section>
 
-			<section class="popular-catalog">
-				<h2 class="slider-title">Популярные букеты</h2>
-				<div class="popular-slider">
-					<div class="slider-container">
+			<section class="popular">
+				<h2 class="popular-title">Популярные букеты</h2>
+				<div class="content-container-small">
+					<div class="popilar-slider">
 						<ul class="slider-list">
 							<li class="slider-item">
 								<div class="slider-item-block">
@@ -101,11 +103,11 @@
 						<div class="slider-controls">
 							<button class="arrow back" type="button">
 							<span class="visually-hidden">Назад</span>
-							<img src="#" alt="Стрелка влево" width="50">
+							<img src="img/Arrow-back.svg" alt="Стрелка влево" width="50">
 							</button>
 							<button class="arrow forward" type="button">
 							<span class="visually-hidden">Вперёд</span>
-							<img src="#" alt="Стрелка вправо" width="50">
+							<img src="img/Arrow-forward.svg" alt="Стрелка вправо" width="50">
 							</button>
 						</div>
 					</div>
@@ -114,22 +116,22 @@
 
 			<section class="catalog">
 				<h2 class="visually-hidden">Каталог</h2>
-				<div class="catolog-container">
+				<div class="content-container">
 					<ul class="catalog-list">
-						<li class="catalog-list-item">
-							<a class="catalog-wedding-link" href="#">
+						<li class="catalog-list-item first">
+							<a href="#" class="catalog-link">
 								<h3 class="catalog-item-title">Cвадебные букеты</h3>
 								<p class="catalog-item-text">Букеты для невест</p>
 							</a>
 						</li>
-						<li class="catalog-list-item">
-							<a class="catalog-pions-link" href="#">
+						<li class="catalog-list-item second">
+							<a href="#" class="catalog-link" >
 								<h3 class="catalog-item-title">Букеты с пионами</h3>
 								<p class="catalog-item-text">Букеты с сезонными пионами</p>
 							</a>
 						</li>
-						<li class="catalog-list-item">
-							<a class="catalog-random-link" href="#">
+						<li class="catalog-list-item third">
+							<a href="#" class="catalog-link">
 								<h3 class="catalog-item-title">Выбрать букет</h3>
 								<p class="catalog-item-text">Букеты в ассортименте</p>
 							</a>
@@ -138,9 +140,9 @@
 				</div>
 			</section>
 
-			<article class="discount-section">
+			<article class="discount">
 				<h2 class="visually-hidden">Скидки</h2>
-				<div class="discount-container">
+				<div class="content-container">
 					<div class="discount-text-block">
 						<div class="discount-text">
 							<p class="discount-text-title">Скидка 10% на первый заказ</p>
@@ -152,25 +154,26 @@
 			</article>
 
 			<section class="perfect-formula">
-				<div class="perfect-formula-container">
-					<h2 class="pefect-formula-title"> 4 Шага к идеальному букету</h2>
-					<ul class="pefect-formula-list">
+				<div class="content-container">
+					<h2 class="perfect-formula-title"> 4 Шага к идеальному букету</h2>
+					<ul class="perfect-formula-list">
 						<li class="perfect-formula-item">
-							<img src="#" alt="Иконка ноутбука" class="steps-image" width="66" height="52">
+							<img src="img/steps-order.svg" alt="Иконка ноутбука" class="perfect-image" width="66" height="52">
 							<h3 class="formula-title">Заказ</h3>
 							<p class="formula-text">Выберите понравившийся букет из каталога и оформите заказ</p>
 						</li>
 						<li class="perfect-formula-item">
-							<img src="#" alt="Иконка человека" class="steps-image" width="38" height="52">
+							<img src="img/steps-details.svg" alt="Иконка человека" class="perfec-image" width="38" height="52">
 							<h3 class="formula-title">Уточнение деталей</h3>
 							<p class="formula-text">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
 						</li>
 						<li class="perfect-formula-item">
+							<img src="img/steps-payment.svg" alt="Иконка банковской карты" class="perfect-image" width="70" height="52">
 							<h3 class="formula-title">Оплата</h3>
 							<p class="formula-text">Оплатить заказ можно онлайн на сайте или при получении</p>
 						</li>
 						<li class="perfect-formula-item">
-							<img src="#" alt="Иконка грузовика" class="steps-image" width="83" height="52">
+							<img src="img/advantages-steps-delivery.svg" alt="Иконка грузовика" class="perfect-image" width="83" height="52">
 							<h3 class="formula-title">Доставка</h3>
 							<p class="formula-text">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
 						</li>
@@ -180,61 +183,61 @@
 
 			<section class="news">
 				<h2 class="visually-hidden">Новости</h2>
-				<div class="news-container">
-					<div class="news-section">
-						<p class="news-section-title">Следите за нашими новостями</p>
-						<p class="news-section-text">Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
-						<ul class="news-section-socials">
-							<li class="news-section-social">
+				<div class="content-container">
+					<div class="news-block">
+						<p class="news-block-title">Следите за нашими новостями</p>
+						<p class="news-block-text">Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
+						<ul class="news-list-socials">
+							<li class="news-list-social">
 								<a class="news-social-link" href="#">
-									<img class="news-social" src="img/instagram-pink.svg" alt="Инстаграм" width="21" height="20">
+									<img src="img/instagram-pink.svg" alt="Инстаграм" class="image-social" width="21" height="20">
 								</a>
 							</li>
-							<li class="news-section-social">
+							<li class="news-list-social">
 								<a class="news-social-link" href="#">
-									<img class="footer-social" src="img/facebook-pink.svg" alt="Фейсбук" width="12" height="20">
+									<img src="img/facebook-pink.svg" alt="Фейсбук" class="image-social" width="12" height="20">
 								</a>
 							</li>
-							<li class="news-section-social">
+							<li class="news-list-social">
 								<a class="news-social-link" href="#">
-									<img class="footer-social" src="img/twitter-pink.svg" alt="Твитер" width="26" height="20" >
+									<img src="img/twitter-pink.svg" alt="Твитер" class="image-social" width="26" height="20" >
 								</a>
 							</li>
 						</ul>
 					</div>
 					<div class="news-images">
-						<img class="news-image1" src="img/news-white-rose.jpg" alt="Букет роз" width="285" height="220">
-						<img class="news-image2" src="img/news-pink-roses.jpg" alt="Букет роз" width="285" height="220">
-						<img class="news-image3" src="img/news-flowers-big.jpg" alt="Букет роз" width="387" height="460">
+						<img src="img/news-white-rose.jpg" alt="Букет роз" class="news-image" width="285" height="220">
+						<img src="img/news-pink-roses.jpg" alt="Букет роз" class="news-image" width="285" height="220">
+						<img src="img/news-flowers-big.jpg" alt="Букет роз" class="news-image" width="387" height="460">
 					</div>
 				</div>
 			</section>
 
 			<section class="reviews">
-				<div class="reviews-container">
-					<h2 class="reviews-header">Отзывы</h2>
-					<div class="rewiew-items">
-						<blockquote class="review-item">
-							<p class="review-text">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
+				<div class="content-container">
+					<h2 class="reviews-title">Отзывы</h2>
+					<ul class="reviews-items">
+						<li class="review-item">
+						<blockquote class="review-text">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</blockquote>
 							<cite class="customer-name">Марина</cite>
-						</blockquote>
-						<blockquote class="review-item">
-							<p class="review-text">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</p>
+						</li>
+						<li class="review-item">
+						<blockquote class="review-text">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</blockquote>
 							<cite class="customer-name">Татьяна</cite>
-						</blockquote>
-						<blockquote class="review-item">
-							<p class="review-text">Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</p>
+						</li>
+						<li class="review-item">
+						<blockquote class="review-text">Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</blockquote>
 							<cite class="customer-name">Ольга</cite>
-						</blockquote>
-					</div>
+					</li>
+					</ul>
 				</div>
 			</section>
 			<section class="map">
-				<img src="#" alt="Карта" class="map-image" width="1440" height="644">
-				<div class="map-container">
+				<img src="img/map.png" alt="Карта" class="map-image" width="1440" height="644">
+				<div class="content-container">
 					<div class="contacts">
 						<h2 class="visually-hidden">Адрес и часы работы</h2>
-						<p class="addres-title">Мы ждём вас</p>
+						<p class="address-title">Мы ждём вас</p>
 						<dl>
 							<dt>Приходите к нам:</dt>
 							<dd>Санкт-Петербург, <br>
@@ -253,9 +256,9 @@
 		</main>
 
 		<footer class="footer">
-			<div class="footer-container">
-				<a class="footer-logo-link" href="#">
-					<img class="footer-logo-image" src="img/logo-white.svg" alt="Логотип" width="100" height="33">
+			<div class="content-container">
+				<a href="#" class="footer-logo-link">
+					<img src="img/logo-white.svg" alt="Логотип" class="footer-logo-image" width="100" height="33">
 				</a>
 				<nav class="footer-navigation" >
 					<ul class="footer-navigation-list">
