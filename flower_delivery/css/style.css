@@ -318,7 +318,7 @@ grid-area: 1;
 
 .footer-navigation-list,
 .footer-social-list, {
-    margin:0;
+    margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
