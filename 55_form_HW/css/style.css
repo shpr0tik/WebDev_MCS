@@ -1,11 +1,11 @@
-@import url(reset.css);
 
-* {
+*, *:before, *:after 
+{   margin:0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: Helvetica;
 	font-size: 20px;
 	font-weight: 700;
-
 }
 
 .header{
@@ -33,29 +33,82 @@
 }
 
 .main-section {
-    background-color: #2f6fd2;
-    width: 100%;
-    height: 844px;
-    position: relative;
-
+	background-color: #2f6fd2;
+	height: 844px;
 }
 
-.background-form{
+.background-container {
+	position: relative;
+}
+
+img {
+	width: 100%;
+    height: auto;
 	position: absolute;
-	background-image: url(../img/background.png);
-	background-repeat: no-repeat;
 	top: 0;
-	background-size: contain;
+	left: 0;
+}
+
+.form-block {
+	max-width: 300px;
+	background-color: transparent;
+	font-size: 20px;
+	color: #FFFFFF;
+	position: relative;
+	top: 90px;
+	left: 90px;
+}
+
+.info {
+	background-color: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding: 33px 30px;
+}
+
+input {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: block;
+	width: 100%;
+	border:0; 
+	border-bottom: 1px solid #FFFFFF;
+	background-color:#F8BFC7; 
+	font-family: 'Times New Roman';
+	font-weight: 400;
+}
+
+input::placeholder {
+	color: #FFFFFF;
+}
+
+input:last-child {
+	margin-bottom: 0;
+}
+
+input[type="submit"] {
+	max-width: 200px;
+	background-color: #FEB700;
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+	color: #FFFFFF;
+	margin: auto;
+	padding: 10px 37px ;
+}
+
+
+.text-container {
+	padding-top: 20px;
 }
 
 .main-text {
-	position: absolute;
-	bottom: 180px;
-	left: 200px;
+    text-align: center;
 	color: #FEB700;
 	font-size: 50px;
-}
 
+
+}
 
 .footer {
 	max-width: 100%;
