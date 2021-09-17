@@ -95,7 +95,7 @@ a:active {
     position: relative;
 }
 
-.logo {
+.header-logo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,7 +111,7 @@ a:active {
     padding: 0;
 }
 
-.navigation-item-link:nth-child(6n+3) {
+.navigation-list-item:nth-child(6n+3) {
     margin-right: 97px;
 }
 
@@ -633,7 +633,7 @@ height: 100%;
     display: flex;
 }
 
-.footer-logo-link {
+.footer-logo {
     position: static;
     transform: none;
     margin-left: 5px;
@@ -658,7 +658,7 @@ height: 100%;
     margin-right: 68px;
 }
 
-.footer-item-link {
+.footer-item-link{
     color: var(--white);
 }
 
