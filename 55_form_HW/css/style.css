@@ -9,7 +9,7 @@
 }
 
 .header{
-	max-width: 100%;
+	width: 100%;
 	background-color: #F8BFC7;
 	color: #000000;
 	display: flex;
@@ -34,7 +34,7 @@
 
 .main-section {
 	background-color: #2f6fd2;
-	height: 844px;
+	min-height: 844px;
 }
 
 .background-container {
@@ -44,9 +44,6 @@
 img {
 	width: 100%;
     height: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .form-block {
@@ -54,7 +51,7 @@ img {
 	background-color: transparent;
 	font-size: 20px;
 	color: #FFFFFF;
-	position: relative;
+	position: absolute;
 	top: 90px;
 	left: 90px;
 }
@@ -98,11 +95,8 @@ input[type="submit"] {
 }
 
 
-.text-container {
-	padding-top: 20px;
-}
-
 .main-text {
+	margin-top: auto;
     text-align: center;
 	color: #FEB700;
 	font-size: 50px;
@@ -111,7 +105,7 @@ input[type="submit"] {
 }
 
 .footer {
-	max-width: 100%;
+	width: 100%;
 	background-color: #F8BFC7;
 	color: #FFFFFF;
 	display: flex;
