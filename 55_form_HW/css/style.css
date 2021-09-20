@@ -47,7 +47,6 @@ img {
 }
 
 .form-block {
-	max-width: 300px;
 	background-color: transparent;
 	font-size: 20px;
 	color: #FFFFFF;
@@ -65,20 +64,24 @@ img {
 }
 
 input {
+	max-width: 300px;
 	margin-top: 16px;
 	margin-bottom: 16px;
 	display: block;
-	width: 100%;
-	border:0; 
+	border: none;
 	border-bottom: 1px solid #FFFFFF;
 	background-color:#F8BFC7; 
+	color: #FFFFFF;;
 	font-family: 'Times New Roman';
 	font-weight: 400;
 }
 
 input::placeholder {
+	border: none;
+	border-bottom: 1px solid #FFFFFF;
 	color: #FFFFFF;
 }
+
 
 input:last-child {
 	margin-bottom: 0;
