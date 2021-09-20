@@ -1,0 +1,144 @@
+.blog {
+  & &-header{
+      color: indigo;
+  }
+}
+
+a {
+    &:link {
+        text-decoration: none;
+        color: blue;
+    }
+    &:hover{
+        text-decoration: none;
+        color: yellow;
+    }
+    &:active{
+        text-decoration: none;
+        color:red;
+    }
+    &:focus {
+        text-decoration: none;
+        color: green
+    }
+    &:visited {
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+/*global variable*/
+$border-width: 3px;
+$width: 200.34px; 
+$font-family: "Helvetica Neue";
+$file-name: "background.png";
+
+.blog2 {
+    border: $border-width solid red;
+}
+
+.blog {
+    $color:yellow; /*local variable*/
+    border: $border-width solid $color;
+    min-width: $width;
+    font-family: $font-family;
+    background-image: url("/images/#{$file-name}");
+}
+
+
+//*Unquoted strings*//
+$type: solid; 
+$prefix:-ms;
+
+.blog3 {
+    border: 1px $type black;
+    #{$prefix}-flex: 1; 
+}
+
+/*Colors*/
+
+$bg: rgba(255,777, 789, 0.6);
+@use 'sass:list';
+$numbers: (12px 20px 30px 15px);
+
+.blog3 {
+    min-width: list.nth($numbers, 3);
+}
+
+/*Maps*/
+@use "sass:map";
+$border-pairs: ("width": 1px, "color": black, "type": "solid");
+
+.blog3 {
+    border: map.get($border-pairs:"width") map.get($border-pairs:"type");
+
+}
+
+/*Boolean values*/
+$var1: true;
+$var2: false;
+
+/*Null*/
+$no-value: null; 
+
+@debug 1px == 1px; /*true*/
+@debug 1  == 1px; /*false*/
+
+@debug 1px != 1px; /*true*/
+@debug "bold" == bold; /*true*/ 
+
+@debug (1px solid) != (1px solid); /*true*/
+@debug (1px solid) == (1px, solid); /*true*/
+
+@debug  1 > 2; /*false*/
+@debug  1 <= 2; /*true*/
+
+@debug  1px + 2px; //3px
+@debug  12/4; //3
+
+$height:100px;
+$gap:50px;
+
+.blog3 {
+    min-width: $height + $gap;
+}
+
+// not
+// not true - - > false
+
+// and
+// true and false - - > false
+
+// or
+// true and false - - > false
+
+@mixin no_margin() {
+    margin: 0;
+}
+@mixin border ($type,$color) {
+    border: 1px, $type,$color;
+}
+
+body {
+@include no_margin();}
+
+.blog1 {
+    @include border(solid,black)
+}
+
+@use '_shared';
+
+body {
+    color: shared.$color;
+}
+
+.blog1 {
+    background-color: black ;
+    border: 1px solid darkmagenta;
+}
+
+.blog2 {
+    font-size: 20px;
+    @extend .blog1;
+}
+

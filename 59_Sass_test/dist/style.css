@@ -1,0 +1,42 @@
+.blog .blog-header {
+  color: indigo;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+a:active {
+  text-decoration: none;
+  color: red;
+}
+a:focus {
+  text-decoration: none;
+  color: green;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+/*global variable*/
+.blog2 {
+  border: 3px solid red;
+}
+
+.blog {
+  /*local variable*/
+  border: 3px solid yellow;
+  min-width: 200.34px;
+  font-family: "Helvetica Neue";
+  background-image: url("/images/background.png");
+}
+
+.blog3 {
+  border: 1px solid black;
+  -ms-flex: 1;
+}
